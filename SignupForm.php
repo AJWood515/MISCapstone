@@ -78,7 +78,7 @@ else{
                 <input type="text" name="event_presenter" id="event_presenter" value="<?php echo $event_presenter;  ?>" />
                 <span class="errMsg"><?php echo $presenterErrMsg; ?></span>
               </p>
-              <p>
+              <p> 
                 <label for="event_date">Event Date: </label>
                 <input type="Date" name="event_date" id="event_date" value="<?php echo $event_date;  ?>"/>
                 <span class="errMsg"><?php echo $dateErrMsg; ?></span>

@@ -105,7 +105,7 @@ When help is needed: <input type="text" name="name" value="<?php echo $date;?>">
   <span class="error"><?php echo $websiteErr;?></span>
 
   <br><br>
-  <input type="submit" name="submit" value="Submit">
+  <input type="submit" name="submit" value="Submit"> 
 </form>
 
 <?php
