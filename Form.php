@@ -45,8 +45,9 @@
     </div>
   </nav>
   <?php
+  include "PHP_Database_Connections.php";
   // define variables and set to empty values
-  $nameErr = $emailErr = $genderErr = $websiteErr = "";
+  $nameErr = $emailErr  = $websiteErr = "";
   $name = $email = $gender = $comment = $website = "";
   $introduction = $what = $who = $need = $date = "";
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
